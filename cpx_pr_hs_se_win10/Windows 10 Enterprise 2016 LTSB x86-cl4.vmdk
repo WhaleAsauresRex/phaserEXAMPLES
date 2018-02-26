@@ -1,0 +1,33 @@
+# Disk DescriptorFile
+version=1
+encoding="windows-1252"
+CID=4912bac8
+parentCID=ffffffff
+isNativeSnapshot="no"
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 8323072 SPARSE "Windows 10 Enterprise 2016 LTSB x86-cl4-s001.vmdk"
+RW 8323072 SPARSE "Windows 10 Enterprise 2016 LTSB x86-cl4-s002.vmdk"
+RW 8323072 SPARSE "Windows 10 Enterprise 2016 LTSB x86-cl4-s003.vmdk"
+RW 8323072 SPARSE "Windows 10 Enterprise 2016 LTSB x86-cl4-s004.vmdk"
+RW 8323072 SPARSE "Windows 10 Enterprise 2016 LTSB x86-cl4-s005.vmdk"
+RW 8323072 SPARSE "Windows 10 Enterprise 2016 LTSB x86-cl4-s006.vmdk"
+RW 399360 SPARSE "Windows 10 Enterprise 2016 LTSB x86-cl4-s007.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.deletable = "true"
+ddb.geometry.biosCylinders = "3133"
+ddb.geometry.biosHeads = "255"
+ddb.geometry.biosSectors = "63"
+ddb.geometry.cylinders = "3133"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "49c9a93f14822643bbbe6c844912bac8"
+ddb.toolsInstallType = "1"
+ddb.toolsVersion = "10278"
+ddb.uuid = "60 00 C2 9d 64 9d 49 b1-84 79 d7 04 c6 ec 60 cd"
+ddb.virtualHWVersion = "10"
